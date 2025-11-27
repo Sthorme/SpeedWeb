@@ -15,7 +15,7 @@ function formatTime(seconds) {
 function updateTimer() {
   var timerDisplay = document.getElementById("timer-display");
   if (timerDisplay) {
-    timerDisplay.textContent = "Temps: " + formatTime(timeLeft);
+    timerDisplay.textContent = "Time: " + formatTime(timeLeft);
   }
 }
 
